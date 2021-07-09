@@ -1,0 +1,39 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "page": "index",
+      "layout": "main"
+    },
+    {
+      "path": "/",
+      "page": "index",
+      "layout": "main"
+    },
+    {
+      "path": "/file:///Users/lukner/www/gsw_2021-07-04-0937h/public//About",
+      "page": "file:///Users/lukner/www/gsw_2021-07-04-0937h/public//About",
+      "layout": "main"
+    },
+    {
+      "path": "/file:///Users/lukner/www/gsw_2021-07-04-0937h/public//contact",
+      "page": "file:///Users/lukner/www/gsw_2021-07-04-0937h/public//contact",
+      "layout": "main"
+    },
+    {
+      "path": "/file:///Users/lukner/www/gsw_2021-07-04-0937h/public//index",
+      "page": "file:///Users/lukner/www/gsw_2021-07-04-0937h/public//index",
+      "layout": "main"
+    },
+    {
+      "path": "/About",
+      "page": "About",
+      "layout": "main"
+    },
+    {
+      "path": "/Contact",
+      "page": "Contact",
+      "layout": "main"
+    }
+  ]
+}

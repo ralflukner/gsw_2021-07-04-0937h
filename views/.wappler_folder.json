@@ -1,0 +1,14 @@
+{
+  "index.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "About.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  },
+  "Contact.ejs": {
+    "layoutPage": "main",
+    "description": ""
+  }
+}

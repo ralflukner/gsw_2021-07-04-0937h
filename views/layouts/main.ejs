@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <base href="/">
+  <script src="dmxAppConnect/dmxAppConnect.js"></script>
+  <meta charset="UTF-8">
+  <title>Untitled Document</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap/4/css/bootstrap.min.css" />
+  <script src="dmxAppConnect/dmxBootstrap4Navigation/dmxBootstrap4Navigation.js" defer=""></script>
+  <script src="dmxAppConnect/dmxRouting/dmxRouting.js" defer=""></script>
+</head>
+
+<body is="dmx-app" id="main">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mr-auto" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1_collapse" aria-controls="navbar1_collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1_collapse">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="../views/index.ejs">Home</a>
+          <a class="nav-item nav-link active" href="../views/About.ejs">About</a>
+          <a class="nav-item nav-link active" href="../views/Contact.ejs" internal>Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div is="dmx-view" id="content">
+    <%- await include(content, locals); %>
+  </div>
+  <footer class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="text-secondary text-center small mb-0 p-1">&copy; Copyright 2021. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap/4/js/popper.min.js"></script>
+
+  <script src="bootstrap/4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
